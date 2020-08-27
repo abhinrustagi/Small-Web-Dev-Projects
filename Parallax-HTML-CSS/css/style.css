@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.pt1 {
+  background-image: url("../img/pt1.jpg");
+  height: 800px;
+}
+
+.pt2 {
+  background-image: url("../img/pt2.jpg");
+  height: 500px;
+}
+
+.pt3 {
+  background-image: url("../img/pt3.jpg");
+  height: 600px;
+}
+
+.pt1, .pt2, .pt3 {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  opacity: 0.9;
+}
+
+.pt-text {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  margin: auto;
+}
+
+.white-bg {
+  padding: 4%;
+}
+
+span {
+  background-color: #3f3f44;
+  font-size: 2rem;
+  letter-spacing: 4px;
+  color: white;
+  padding: 2%;
+}
