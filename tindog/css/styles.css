@@ -1,0 +1,185 @@
+/* ----------------------HTML SELECTORS---------------------- */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+i {
+  margin-right: 5px;
+}
+
+p {
+  color: gray;
+}
+
+.container-fluid {
+  padding: 3% 15% 10%;
+}
+
+/* ----------------------TITLE SECTION---------------------- */
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* ----------------------FEATURES---------------------- */
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: white;
+  /* z-index: 1; */
+  position: relative;
+}
+
+.fa-4x {
+ color: #ff9595;
+ margin-bottom: 1rem;
+}
+
+.fa-4x:hover {
+  color: #ff4c68;
+}
+
+/* ----------------------TESTIMONIALS---------------------- */
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: white;
+}
+
+.testimonial-text {
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin-top: 1rem;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* ----------------------PRESS---------------------- */
+
+#press {
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* ----------------------CTA---------------------- */
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  color: white;
+  padding: 7% 15% 3%;
+}
+
+.ctahead {
+  font-size: 3rem;
+}
+
+/* ----------------------PRICING---------------------- */
+
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.pricing-column {
+  padding: 10px 10px;
+}
+
+/* ----------------------FOOTER---------------------- */
+
+#footer {
+  margin-bottom: 0;
+  text-align: center;
+  background-color: white;
+  padding: 7% 15%;
+}
+
+.foot-social {
+  color: #07031a;
+  margin: auto 3% 1%;
+}
+
+/* ----------------------NAVBAR---------------------- */
+
+.navbar {
+  padding: 0 0 4.5rem;
+
+}
+
+.nav-item {
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.nav-link {
+  font-weight: lighter;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* ----------------------MEDIA QUERY POINT---------------------- */
+
+@media (max-width: 1028px){
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
