@@ -1,1 +1,3 @@
-A Dice Web App developed using Javascript. 
+# Dicee App
+
+A Dice Web App developed using Javascript.

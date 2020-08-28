@@ -1,0 +1,31 @@
+body {
+  padding: 2% 5%;
+  background-color: #393b44;
+  font-family: sans-serif;
+  color: white;
+}
+
+textarea {
+  background-color: #41444b;
+  font-family: monospace;
+  color: white;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+.row {
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+#html {
+  color: #fddb3a;
+}
+
+#css {
+  color: #00bcd4;
+}
+
+#js {
+  color: #b6eb7a;
+}
