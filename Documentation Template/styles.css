@@ -1,0 +1,64 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+}
+
+.content {
+  margin-top: 60px;
+  padding: 30px;
+}
+
+#scrollBar {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  height: 10px;
+  width: 0;
+  background: #7b4397;
+  background: -webkit-linear-gradient(to right, #dc2430, #7b4397);
+  background: linear-gradient(to right, #dc2430, #7b4397);
+  animation: animate 5s linear infinite;
+}
+
+.navbar {
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  top:0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  width: 100%;
+}
+
+.nav-item {
+  background-color: #343a40;
+}
+
+.output, .code {
+  padding: 10px;
+  margin: 5px;
+  font-family: 'Overpass Mono', monospace;
+}
+
+.code {
+  background-color: #e4e3e3;
+  border-radius: 5px;
+  letter-spacing: 0.1px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+@keyframes animate {
+  0%, 100% {
+    filter: hue-rotate(0deg);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+  }
+}
