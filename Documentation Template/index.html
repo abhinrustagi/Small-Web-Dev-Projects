@@ -3,16 +3,18 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Scroll Indicator</title>
+  <title>Project Documentation</title>
+  <link rel="shortcut icon" href="favicon.ico">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
   <div id="scrollBar"></div>
+  <div class="nav">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#">Project Documentation</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,13 +24,17 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="">Top</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Github Repository</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Profile</a>
+        </li>
     </div>
   </nav>
+  </div>
 
   <div class="content">
     <h1>Lorem Ipsum</h1>
@@ -140,8 +146,8 @@
 </body>
 
 <script type="text/javascript">
-  const progress = document.getElementById('scrollBar');
-  const totalWidth = document.body.scrollHeight - window.innerHeight;
+  let progress = document.getElementById('scrollBar');
+  let totalWidth = document.body.scrollHeight - window.innerHeight;
   window.onscroll = function() {
     let progressWidth = (window.pageYOffset / totalWidth) * 100;
     progress.style.width = progressWidth + "%";
