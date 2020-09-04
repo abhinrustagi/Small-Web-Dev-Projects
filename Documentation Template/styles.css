@@ -4,9 +4,18 @@ body {
   letter-spacing: 0.5px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .content {
   margin-top: 60px;
   padding: 20px 30px;
+}
+
+.items {
+  width: 300px;
+  margin: auto;
 }
 
 #scrollBar {
@@ -21,29 +30,102 @@ body {
   animation: animate 5s linear infinite;
 }
 
+#menu .primary-list {
+  list-style: outside;
+  margin: 0;
+  color: black;
+  padding: 0;
+}
+
+#menu a {
+  color: black;
+  cursor: pointer;
+}
+
+#menu a:visited {
+  color: black;
+}
+
+#menu a:hover {
+  text-decoration: underline;
+}
+
 .nav {
   position: fixed;
   top: 0;
   width: 100%;
   left: 0;
-  padding: 0;
-  margin: 0;
-}
-
-.navbar {
   height: 60px;
-  width: 100%;
-  text-align: center;
-}
-
-.navbar-dark .navbar-nav .nav-link {
-  width: 100%;
+  background-color: #212529;
+  padding: 18px 20px;
+  vertical-align: middle;
+  margin: 0;
+  text-align: left;
   color: white;
 }
 
-.nav-item {
-  background-color: #343a40;
-  margin: auto 3px;
+.nav h5 {
+  font-weight: lighter;
+  font-size: 1.3rem;
+  margin-top: -1px;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  cursor: pointer;
+  left: 20px;
+  color: #41444b;
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  z-index: 9;
+  background-color: #f6f4e6;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 3%;
+  font-size: 1.2rem;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#menu-button {
+  display: block;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.bar {
+  margin: 0 10px 5px;
+  width: 30px;
+  height: 4px;
+  border-radius: 5px;
+  position: relative;
+  background-color: #e8ded2;
 }
 
 .output, .code {
