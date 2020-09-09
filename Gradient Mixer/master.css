@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  text-align: center;
+  padding: 0;
+  font-family: monospace;
+  overflow: hidden;
+}
+
+.row {
+  width: 100vw;
+  margin: 0;
+  position: relative;
+}
+
+#row1, #row2, #row3 {
+  height: 22vh;
+}
+
+#row4 {
+  height: 34vh;
+}
+
+.box {
+  position: relative;
+  top: 10%;
+  margin: auto;
+  display: inline-block;
+  font-size: 1.2rem;
+  overflow: auto: ;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+button {
+  cursor: pointer;
+  font-family: 1.2rem;
+  padding: 5px 10px;
+  border-radius: 2px;
+  background-color: white;
+  border: black solid 2px;
+}
