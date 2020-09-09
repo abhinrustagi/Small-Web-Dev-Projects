@@ -5,29 +5,34 @@
     <title>Gradient Mixer</title>
     <link rel="stylesheet" href="master.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   </head>
   <body>
     <div class="row" id="row1">
       <div class="box">
+        <i class="fas fa-lock-open" id="box1lock" onclick="toggle('box1')"></i><br />
         <button id="mixer1" class="mixer">Change Color</button>
         <p id="color1">White</p>
       </div>
     </div>
     <div class="row" id="row2">
       <div class="box">
+        <i class="fas fa-lock-open" id="box2lock" onclick="toggle('box2')"></i><br />
         <button id="mixer2" class="mixer">Change Color</button>
         <p id="color2">White</p>
       </div>
     </div>
     <div class="row" id="row3">
       <div class="box">
+        <i class="fas fa-lock-open" id="box3lock" onclick="toggle('box3')"></i><br />
         <button id="mixer3" class="mixer">Change Color</button>
         <p id="color3">White</p>
       </div>
     </div>
     <div class="row" id="row4">
       <div class="box">
-        <p id="result">Gradient (White, White, White)</p>
+        <input onclick="copyFunc()" type="text" id="result" readonly>
+        <small onclick="copyFunc()">Click to copy</small>
       </div>
     </div>
   </body>
