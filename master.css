@@ -1,0 +1,27 @@
+body {
+  padding: 20px 50px;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: 'Manrope', sans-serif;
+}
+
+a {
+  color: #cd0a0a;
+  display: inline-block;
+}
+
+li h4 {
+  margin: 10px 0 0;
+}
+
+p {
+  margin: 0;
+}
+
+a:visited {
+  color: #cd0a0a;
+}
+
+a:hover {
+  color: #145374;
+}
