@@ -76,7 +76,7 @@ mixer1.addEventListener("click", function(){
   row4.style.background = "linear-gradient(to right, #" + newColor + ", " + String(color2.innerText) +", "+ String(color3.innerText)+")";
   color1.innerText = "#" + newColor;
   row1.style.background = "#" + newColor;
-  result.value = "linear-gradient(to right, #" + newColor +  ", " + String(color2.innerText) +", "+ String(color3.innerText)+")";
+  result.value = "Click to Copy - linear-gradient(to right, #" + newColor +  ", " + String(color2.innerText) +", "+ String(color3.innerText)+")";
 }
 });
 
@@ -86,7 +86,7 @@ mixer2.addEventListener("click", function(){
   row4.style.background = "linear-gradient(to right," + String(color1.innerText) + ", #" + newColor + "," + String(color3.innerText)+")";
   color2.innerText = "#" + newColor;
   row2.style.background = "#" + newColor;
-  result.value = "linear-gradient(to right, " + String(color1.innerText) + ", #" + newColor + ", " + String(color3.innerText)+")";
+  result.value = "Click to Copy - linear-gradient(to right, " + String(color1.innerText) + ", #" + newColor + ", " + String(color3.innerText)+")";
 }
 });
 
@@ -96,7 +96,7 @@ mixer3.addEventListener("click", function(){
   row4.style.background = "linear-gradient(to right," + String(color1.innerText) +","+ String(color2.innerText) +",#" + newColor +")";
   color3.innerText = "#" + newColor;
   row3.style.background = "#" + newColor;
-  result.value = "linear-gradient(to right, " + String(color1.innerText) +", "+ String(color2.innerText) +", #" + newColor +")";
+  result.value = "Click to Copy - linear-gradient(to right, " + String(color1.innerText) +", "+ String(color2.innerText) +", #" + newColor +")";
 }
 });
 

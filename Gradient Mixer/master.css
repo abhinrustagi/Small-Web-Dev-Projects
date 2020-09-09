@@ -14,19 +14,18 @@ body {
 
 input {
   font-size: 1.2rem;
-  width: 100%;
+  width: 95%;
   height: 30px;
   cursor: pointer;
 }
 
 i {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   cursor: pointer;
 }
 
-small {
-  font-size: 0.8rem;
-  font-family: sans-serif;
+.fas {
+  margin-top: 3px;
 }
 
 #row1, #row2, #row3 {
@@ -38,16 +37,20 @@ small {
 }
 
 .box {
-  position: relative;
-  top: 10%;
+  position: absolute;
+  width: 100%;
+  top: 0;
   margin: auto;
-  display: inline-block;
   font-size: 1.2rem;
   overflow: auto: ;
-  padding: 15px;
-  border-radius: 5px;
+  padding: 0;
   background-color: white;
 }
+p {
+  display: inline-block;
+  margin: 5px 2px;
+}
+
 
 button {
   cursor: pointer;
@@ -56,4 +59,5 @@ button {
   border-radius: 2px;
   background-color: white;
   border: black solid 2px;
+  margin: 0 0 2px;
 }
